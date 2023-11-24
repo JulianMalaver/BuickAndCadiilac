@@ -12,6 +12,146 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <Selenium>3.141.59</Selenium>
+        <TestNg>7.1.0</TestNg>
+        <CommonsIo>2.6</CommonsIo>
+        <ApachePoiOoxml>4.1.0</ApachePoiOoxml>
+        <ApachePoiSchemas>4.1.0</ApachePoiSchemas>
+        <ApachePoiScratchpad>4.1.0</ApachePoiScratchpad>
+        <ApacheOoxmlSchemas>1.1</ApacheOoxmlSchemas>
+        <ApachePoiOpenxml4j>1.0-beta</ApachePoiOpenxml4j>
+        <ApachePoiPoi>4.1.0</ApachePoiPoi>
+        <RelaveantCodes>2.41.2</RelaveantCodes>
+        <OrgTestNg>7.1.0</OrgTestNg>
+        <IoCucumberJava>7.11.2</IoCucumberJava>
+        <IoCucumberJunit>7.11.2</IoCucumberJunit>
+        <OrgJunitJupiter>RELEASE</OrgJunitJupiter>
+        <NetSfOpencsv>2.3</NetSfOpencsv>
+        <Dom4j>1.6.1</Dom4j>
+        <ComOpencsv>5.5.2</ComOpencsv>
+        <OrgScalaLang>2.13.0</OrgScalaLang>
+
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>${Selenium}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>${TestNg}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>${CommonsIo}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>${ApachePoiOoxml}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml-schemas</artifactId>
+            <version>${ApachePoiSchemas}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-scratchpad</artifactId>
+            <version>${ApachePoiScratchpad}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>ooxml-schemas</artifactId>
+            <version>${ApacheOoxmlSchemas}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>openxml4j</artifactId>
+            <version>${ApachePoiOpenxml4j}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>${ApachePoiPoi}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.relevantcodes</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>${RelaveantCodes}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>${OrgTestNg}</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>${IoCucumberJava}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-junit</artifactId>
+            <version>${IoCucumberJunit}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>${OrgJunitJupiter}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.netbeans.api</groupId>
+            <artifactId>org-openide-explorer</artifactId>
+            <version>RELEASE111</version>
+        </dependency>
+
+        <dependency>
+            <groupId>net.sf.opencsv</groupId>
+            <artifactId>opencsv</artifactId>
+            <version>${NetSfOpencsv}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>dom4j</groupId>
+            <artifactId>dom4j</artifactId>
+            <version>${Dom4j}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.opencsv</groupId>
+            <artifactId>opencsv</artifactId>
+            <version>${ComOpencsv}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-compiler</artifactId>
+            <version>${OrgScalaLang}</version>
+        </dependency>
+
+    </dependencies>
 
 </project>
