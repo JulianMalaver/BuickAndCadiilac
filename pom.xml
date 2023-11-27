@@ -15,7 +15,7 @@
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <Selenium>3.141.59</Selenium>
-        <TestNg>7.5.1</TestNg>
+        <TestNg>7.7.0</TestNg>
         <CommonsIo>2.7</CommonsIo>
         <ApachePoiOoxml>4.1.0</ApachePoiOoxml>
         <ApachePoiSchemas>4.1.0</ApachePoiSchemas>
