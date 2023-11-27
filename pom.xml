@@ -29,7 +29,6 @@
         <IoCucumberJunit>7.11.2</IoCucumberJunit>
         <OrgJunitJupiter>RELEASE</OrgJunitJupiter>
         <NetSfOpencsv>2.3</NetSfOpencsv>
-        <Dom4j>1.6.1</Dom4j>
         <ComOpencsv>5.5.2</ComOpencsv>
         <OrgScalaLang>2.13.0</OrgScalaLang>
 
@@ -134,12 +133,6 @@
             <groupId>net.sf.opencsv</groupId>
             <artifactId>opencsv</artifactId>
             <version>${NetSfOpencsv}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>dom4j</groupId>
-            <artifactId>dom4j</artifactId>
-            <version>${Dom4j}</version>
         </dependency>
 
         <dependency>
