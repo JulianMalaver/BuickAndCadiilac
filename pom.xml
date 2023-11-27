@@ -24,7 +24,7 @@
         <ApachePoiOpenxml4j>1.0-beta</ApachePoiOpenxml4j>
         <ApachePoiPoi>4.1.1</ApachePoiPoi>
         <RelaveantCodes>2.41.2</RelaveantCodes>
-        <OrgTestNg>7.1.0</OrgTestNg>
+        <OrgTestNg>7.7.0</OrgTestNg>
         <IoCucumberJava>7.11.2</IoCucumberJava>
         <IoCucumberJunit>7.11.2</IoCucumberJunit>
         <OrgJunitJupiter>RELEASE</OrgJunitJupiter>
