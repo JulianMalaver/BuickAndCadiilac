@@ -17,7 +17,7 @@
         <Selenium>3.141.59</Selenium>
         <TestNg>7.7.0</TestNg>
         <CommonsIo>2.7</CommonsIo>
-        <ApachePoiOoxml>4.1.0</ApachePoiOoxml>
+        <ApachePoiOoxml>5.0.0</ApachePoiOoxml>
         <ApachePoiSchemas>4.1.0</ApachePoiSchemas>
         <ApachePoiScratchpad>5.2.1</ApachePoiScratchpad>
         <ApacheOoxmlSchemas>1.1</ApacheOoxmlSchemas>
